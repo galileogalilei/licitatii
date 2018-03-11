@@ -1,0 +1,4 @@
+services:
+#    licitatii.example:
+#        class: Licitatii\Bundle\LicitatiiBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <div id="main">
+        <div>
+            <h2>App Menu Area</h2>
+            <div>
+                <button name="btn1"><span>doubleMenuList</span></button>
+            </div>
+            <ul>
+                <li>Menu 1</li>
+                <li>Menu 2</li>
+            </ul>
+        </div>
+    </div>
+{% endblock %}
+{% block javascripts %}
+    {% javascripts '@LicitatiiBundle/Resources/public/js/doubleTagsTst.js' %}
+        <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endblock %}

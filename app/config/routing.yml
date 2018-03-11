@@ -1,0 +1,8 @@
+licitatii:
+    resource: "@LicitatiiBundle/Controller"
+    prefix:   /licitatii
+    type: annotation
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
